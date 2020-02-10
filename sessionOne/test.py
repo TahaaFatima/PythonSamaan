@@ -1,0 +1,50 @@
+# print('Hello World')
+# print('Taha Fatima')
+# print('Taha Fatima {42}')
+# print(f'Taha Fatima {42}')
+# print(f'Taha Fatima {42+65}')
+# name= input('Enter your name : ')
+# print(name)
+#This is a comment
+# print(f'Welcome, {name}')
+# a="Hello, World"
+# print(a[8:11])
+# a="""This is a sting,
+# in multiple lines"""
+# print(a)
+#print(a[2:5])
+# print(x1 + y1)
+# print(bool(x1))
+# print(bool(''))
+# print(bool('whatever'))
+# x1 = 45
+# x2 = 65
+# y1 = 6.23
+# y2 = 5.55 
+# print(x1 + x2)
+# print(x1 - x2)
+# print(x1 * x2)
+# print(x1 / x2)
+# print(x1 ** x2)
+# print(x1 // x2)
+# print(78 // 5)
+# print(78 % 5)
+# age = int(input('Enter your age :'))
+# print(2019 - age)
+# pehlaInput = int(input('Enter the first number : '))
+# dosraInput = int(input('Enter the second number : '))
+# print(pehlaInput + dosraInput)
+# print(pehlaInput - dosraInput)
+# print(pehlaInput * dosraInput)
+# print(pehlaInput / dosraInput)
+# print(pehlaInput // dosraInput)
+# print(pehlaInput ** dosraInput)
+# print(pehlaInput % dosraInput)
+name = input('Enter your name = ')
+eng = int(input('Enter your english marks = '))
+math = int(input('Enter your math marks = '))
+urdu = int(input('Enter your urdu marks = '))
+total = (eng+math+urdu)
+percentage = (total/300)*100
+print(f'{name}, your total is {total}')
+print(f'{name}, your percentage is {percentage}')
