@@ -5,5 +5,5 @@ app_name = 'dataFromCSV'
 
 urlpatterns =   [
                     path('', views.index, name='index'),
-                    # path('simple-upload', views.simple_upload, name='file-upload'),
+                    path('show-data', views.show_data, name='show_data'),
                 ]
